@@ -1,0 +1,107 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-logo img {
+    padding-left: 30px;
+    width: 140px;
+}
+
+.navbar a {
+    color: grey;
+    padding-top: 31px;
+    margin-right: 50px;
+}
+.navbar a:hover {
+    color: #0065FC;
+    border-top: solid;
+}
+
+/* RESPONSIVE DESIGN TABLETTES */
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .navbar {
+        display: block;
+    }
+    #nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+    #nav-logo img {
+        width: 300px;
+    }
+    #nav-links {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a {
+        font-size: 30px;
+        text-align: center;
+        width:50%;
+        padding-bottom: 35px;
+        border-top: none;
+        border-bottom: 3px solid grey;
+        margin-right: 0;
+    }
+    .navbar a:first-child:hover {
+        border-bottom: 3px solid blue;
+    }
+    .navbar a:last-child:hover {
+        border-bottom: 3px solid blue;
+    }
+    .navbar a:hover {
+        border-top: none;
+        padding-bottom: 35px;
+    }
+}
+
+/* RESPONSIVE DESIGN MOBILE */
+
+@media (max-width: 768px) {
+    
+    .navbar {
+        display: block;
+    }
+    #nav-logo {
+        width: 100%;
+        text-align: center;
+    }
+    #nav-logo img {
+        width: 200px;
+    }
+    #nav-links {
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar a {
+        font-size: 20px;
+        text-align: center;
+        width:50%;
+        padding-bottom: 35px;
+        border-top: none;
+        border-bottom: 3px solid grey;
+        margin-right: 0;
+    }
+    .navbar a:first-child:hover {
+        border-bottom: 3px solid blue;
+    }
+    .navbar a:last-child:hover {
+        border-bottom: 3px solid blue;
+    }
+    .navbar a:hover {
+        border-top: none;
+        padding-bottom: 35px;
+    }
+}
