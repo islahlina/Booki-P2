@@ -1,0 +1,284 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+/********** HEADER *********/
+.header-one {
+    margin-left: 30px;
+}
+.header-form {
+    margin-left: 30px;
+}
+.header-one h4{
+    font-weight: 300;
+}
+
+/* HEADER FORM */
+#i-one {
+    background-color:#F2F2F2;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#form-one {
+    padding: 9px;
+    border: solid 1px #F2F2F2;
+    border-left: hidden;
+    border-right: hidden;
+    position: relative;
+    bottom: 1px;
+    right: 4px;
+}
+#form-btn {
+    padding: 9px;
+    background-color: #0065FC;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: solid 1px #0065FC;
+    color: #fff;
+    position: relative;
+    bottom: 1px;
+    right: 8px;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+}
+.filters p {
+    margin-left: 30px;
+}
+.filters button {
+    padding: 7px;
+    padding-right: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: solid 1.5px rgb(196, 193, 193);
+    background-color:white;
+    font-weight: 600;
+}
+.filters i {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 10px;
+    border-radius: 25px;
+    align-items: center;
+    font-size: 13px;
+}
+#filter-one i {
+    position: relative;
+    left: 40px;
+    bottom: 1px;
+}
+
+#filter-two i {
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#filter-three i {
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+}
+#filter-four i {
+    position: relative;
+    left: 35px;
+    bottom: 1px;
+}
+
+#filter-info {
+    margin-left: 30px;
+    font-weight: 200;
+    font-size: 14px;
+}
+#filter-info i {
+    font-size: 15px;
+    margin-right: 6px;
+    color: #0065FC;
+
+}
+
+/****** MAIN ******/
+
+/* CARDS */
+.cards {
+    background-color: #F2F2F2;
+    width: 50%;
+    height: 550px;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+.cards-ad {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+/* H3 DE CARDS */
+#title-cards h3 {
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+/* INFORMATIONS DE CHAQUES CARDS */
+.infos-cards {
+    position: relative;
+    bottom: 20px;
+    left: 6px;
+}
+.cards-ad p {
+    position: relative;
+    bottom: 20px;
+    font-size:13px;
+    font-weight: 200;
+}
+.cards-ad i {
+    position: relative;
+    bottom: 32px;
+    font-size: 12px;
+    color: #0065FC;
+}
+.cards-ad span {
+    font-weight: 400;
+}
+#star1 {
+    color: #e2e1e1;
+}
+
+/* DIMENSIONS IMAGES CARDS + CSS CARDS UNITAIRES */
+#card-one img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-one {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#card-two img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-two {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#card-three img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-three {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#card-four img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-four {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#card-five img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-five {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#card-six img {
+    width: 170px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#card-six {
+    background-color: white;
+    height: 165px;
+    border: solid 4px white;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* VIEW MORE CARDS */
+#view-more {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    font-weight: 600;
+    font-size: 13px;
+}
+/************* MOST POPULAR CARDS *************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES NAVBAR 
+@media screen and (min-width:1024px){
+    
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    
+}
+@media screen and (max-width:767px) {
+    
+}
+*/
+
