@@ -110,23 +110,24 @@ a{
 /* CARDS */
 .cards {
     background-color: #F2F2F2;
-    width: 50%;
+    width: 800px;
     height: 550px;
     border-radius: 20px;
     position: relative;
     top: 30px;
+    left: 40px;
 }
 .cards-ad {
     display: flex;
     flex-wrap: wrap;
     position: relative;
     top: 40px;
-    left: 30px;
+    left: 50px;
 }
 /* H3 DE CARDS */
 #title-cards h3 {
     position: relative;
-    left: 30px;
+    left: 50px;
     top: 30px;
 }
 /* INFORMATIONS DE CHAQUES CARDS */
@@ -138,7 +139,7 @@ a{
 .cards-ad p {
     position: relative;
     bottom: 20px;
-    font-size:13px;
+    font-size:12px;
     font-weight: 200;
 }
 .cards-ad i {
@@ -147,101 +148,101 @@ a{
     font-size: 12px;
     color: #0065FC;
 }
-.cards-ad span {
+span {
     font-weight: 400;
 }
-#star1 {
+#stars1 {
     color: #e2e1e1;
 }
 
 /* DIMENSIONS IMAGES CARDS + CSS CARDS UNITAIRES */
 #card-one img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-one {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 #card-two img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-two {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 #card-three img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-three {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 #card-four img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-four {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 #card-five img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-five {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
 #card-six img {
-    width: 170px;
+    width: 205px;
     height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #card-six {
     background-color: white;
     height: 165px;
     border: solid 4px white;
-    border-radius: 25px;
-    box-shadow: 5px 5px 5px 5px rgb(236, 236, 236);
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -250,20 +251,167 @@ a{
 /* VIEW MORE CARDS */
 #view-more {
     position: relative;
-    top: 30px;
-    left: 30px;
+    top: 47px;
+    left: 50px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 14px;
 }
 /************* MOST POPULAR CARDS *************/
+.title-most {
+    position: relative;
+    display: flex;
+    left: 20px;
+}
+.title-most i {
+    position: relative;
+    top: 23px;
+    left: 150px;
+    font-size: 18px;
+}
+.mostpopular {
+    position: relative;
+    left: 950px;
+    bottom: 521px;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 20px;
+    width: 400px;
+    height: 520px;
+}
+.mostpopular-cards i {
+        font-size: 10px;
+        color: #0065FC;
+}
 
 
+/* AD ONE MOST POPULAR */
+#most-one img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    
+}
+#most-one {
+    display: flex;
+    width: 335px;
+    background-color: #fff;
+    border: solid 4px white;
+    border-radius: 20px;
+    border-bottom: 2px;
+    position: relative;
+    left: 19px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
+    top: 15px;
+}
+#most-one-infos {
+    padding-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+#most-one-infos h5 {
+    position: relative;
+    bottom: 5px;
+}
+#most-one-infos p {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
 
 
+/* AD TWO MOST POPULAR */
+#most-two img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    
+}
+#most-two {
+    display: flex;
+    width: 335px;
+    background-color: #fff;
+    border: solid 4px white;
+    border-radius: 20px;
+    border-bottom: 2px;
+    position: relative;
+    left: 19px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
+    top: 40px;
+}
+#most-two-infos {
+    padding-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+#most-two-infos h5 {
+    position: relative;
+    bottom: 5px;
+}
+#most-two-infos p {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
 
 
+/* AD THREE MOST POPULAR */
 
+#most-three img {
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    
+}
+#most-three {
+    display: flex;
+    width: 335px;
+    background-color: #fff;
+    border: solid 4px white;
+    border-radius: 20px;
+    border-bottom: 2px;
+    position: relative;
+    left: 19px;
+    box-shadow: 1px 1px 12px rgb(180, 179, 179);
+    top: 65px;
+}
+#most-three-infos {
+    padding-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+#most-three-infos h5 {
+    position: relative;
+    bottom: 5px;
+}
+#most-three-infos p {
+    position: relative;
+    bottom: 20px;
+    font-size: 12px;
+    font-weight: 200;
+}
 
+/******** ACTIVITY PART ********/
+
+.title-activity {
+    position: relative;
+    bottom: 450px;
+    left: 40px;
+}
+#activity-one {
+    position: relative;
+    bottom: 400px;
+    left: 40px;
+}
+
+#activity-one img {
+    width: 300px;
+    height: 420px;
+}
 
 
 
