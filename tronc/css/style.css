@@ -5,428 +5,229 @@ a{
     text-decoration: none;
     color: black;
 }
-    
-/********** HEADER *********/
-.header-one {
-    margin-left: 30px;
+/************** NAV **************/
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.header-form {
-    margin-left: 30px;
+#nav-logo img {
+    padding-left: 30px;
+    width: 140px;
 }
-.header-one h4{
+
+.navbar a {
+    color: grey;
+    padding-top: 31px;
+    margin-right: 50px;
+}
+.navbar a:hover {
+    color: #0065FC;
+    border-top: solid;
+}
+/************** HEADER TXT **************/
+.header-one h3 {
+    margin-left: 40px;
+    margin-bottom: -14px;
+}
+.header-one h4 {
+    margin-left: 40px;
     font-weight: 300;
 }
-
-/* HEADER FORM */
-#i-one {
-    background-color:#F2F2F2;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+/************** HEADER FORM **************/
+.header-form {
+    margin-left: 40px;
 }
-#form-one {
-    padding: 9px;
-    border: solid 1px #F2F2F2;
+.header-form i {
+    background-color: #F2F2F2;
+    padding: 10px 15px 10px 15px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.header-form input {
+    padding: 10px 15px 8px 10px;
+    border: 1px solid #F2F2F2;
+    margin-left: -6px;
     border-left: hidden;
     border-right: hidden;
-    position: relative;
-    bottom: 1px;
-    right: 4px;
 }
-#form-btn {
-    padding: 9px;
+.header-form button {
+    padding: 10px 15px 8px 10px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
     background-color: #0065FC;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border: solid 1px #0065FC;
-    color: #fff;
-    position: relative;
-    bottom: 1px;
-    right: 8px;
+    border: 1px solid #0065FC;
+    color: white;
+    margin-left: -5px;
 }
-
+/************** FILTERS **************/
 .filters {
     display: flex;
     align-items: center;
 }
-.filters p {
-    margin-left: 30px;
+.header-filters p {
+    margin-left: 40px;
+    margin-right: 20px;
 }
 .filters button {
-    padding: 7px;
-    padding-right: 20px;
-    padding-left: 40px;
+    padding: 6px 20px 8px 32px;
     border-radius: 20px;
-    border: solid 1.5px rgb(196, 193, 193);
-    background-color:white;
+    border: 2px solid #e6e6e6;
+    background-color: white;
     font-weight: 600;
 }
-.filters i {
-    background-color: #DEEBFF;
+
+/* INFO CIRCLE */
+#filters-info {
+    font-weight: 300;
+}
+#info-circle {
+    font-family: 'Inconsolata', monospace;
     color: #0065FC;
-    padding: 10px;
-    border-radius: 25px;
-    align-items: center;
-    font-size: 13px;
-}
-#filter-one i {
-    position: relative;
-    left: 40px;
-    bottom: 1px;
-}
-
-#filter-two i {
-    position: relative;
-    left: 35px;
-    bottom: 1px;
-    padding-left: 12px;
-    padding-right: 12px;
-}
-#filter-three i {
-    position: relative;
-    left: 35px;
-    bottom: 1px;
-}
-#filter-four i {
-    position: relative;
-    left: 35px;
-    bottom: 1px;
-}
-
-#filter-info {
-    margin-left: 30px;
-    font-weight: 200;
-    font-size: 14px;
-}
-#filter-info i {
-    font-size: 15px;
-    margin-right: 6px;
-    color: #0065FC;
-
-}
-
-/****** MAIN ******/
-
-/* CARDS */
-.cards {
-    background-color: #F2F2F2;
-    width: 800px;
-    height: 550px;
-    border-radius: 20px;
-    position: relative;
-    top: 30px;
-    left: 40px;
-}
-.cards-ad {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    top: 40px;
-    left: 50px;
-}
-/* H3 DE CARDS */
-#title-cards h3 {
-    position: relative;
-    left: 50px;
-    top: 30px;
-}
-/* INFORMATIONS DE CHAQUES CARDS */
-.infos-cards {
-    position: relative;
-    bottom: 20px;
-    left: 6px;
-}
-.cards-ad p {
-    position: relative;
-    bottom: 20px;
-    font-size:12px;
-    font-weight: 200;
-}
-.cards-ad i {
-    position: relative;
-    bottom: 32px;
-    font-size: 12px;
-    color: #0065FC;
-}
-span {
-    font-weight: 400;
-}
-#stars1 {
-    color: #e2e1e1;
-}
-
-/* DIMENSIONS IMAGES CARDS + CSS CARDS UNITAIRES */
-#card-one img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-#card-one {
     background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
+    border: 1px solid #F2F2F2;
+    padding: 2px 7px 2px 7px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+/************** ACCOMODATIONS CARDS **************/
+.accomodations { /** DIV 1 **/
+    width: 950px;
+    height: 665px;
+    margin-left: 40px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+}
+.accomodations h3 {
+    margin-left: 50px;
+    padding-top: 40px;
+    margin-bottom: 26px;
+}
+.accomodations-cards { /** DIV 2 **/
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 47px;
+}
+/** CSS ALL CARDS ACCOMODATIONS INFOS **/
+.info-cards {
+    margin-left: 15px;
+}
+.info-cards p {
+    margin-top: -15px;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.info-cards i {
+    font-size: 13px;
+    color: #0065FC;
+}
+
+/** CARD 1 **/
+#card-one {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
+}
+#card-one img {
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
+}
+/** CARD 2 **/
+#card-two {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-two img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
 }
-#card-two {
-    background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
+/** CARD 3 **/
+#card-three {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-three img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
 }
-#card-three {
-    background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
+/** CARD 4 **/
+#card-four {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-four img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
 }
-#card-four {
-    background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
+/** CARD 5 **/
+#card-five {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-five img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
 }
-#card-five {
-    background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
+/** CARD 6 **/
+#card-six {
+    border: 3px solid #fff;
+    background-color: #fff;
+    padding: 2px 2px 6px 2px;
+    border-radius: 25px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-six img {
-    width: 205px;
-    height: 100px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    width: 250px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: -15px;
 }
-#card-six {
-    background-color: white;
-    height: 165px;
-    border: solid 4px white;
-    border-radius: 15px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-
-
-/* VIEW MORE CARDS */
+/** View More **/
 #view-more {
-    position: relative;
-    top: 47px;
-    left: 50px;
+    margin-left: 50px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 15px;
 }
-/************* MOST POPULAR CARDS *************/
-.title-most {
-    position: relative;
-    display: flex;
-    left: 20px;
-}
-.title-most i {
-    position: relative;
-    top: 23px;
-    left: 150px;
-    font-size: 18px;
-}
-.mostpopular {
-    position: relative;
-    left: 950px;
-    bottom: 521px;
-    background-color: #f2f2f2;
-    padding: 15px;
-    border-radius: 20px;
-    width: 400px;
-    height: 520px;
-}
-.mostpopular-cards i {
-        font-size: 10px;
-        color: #0065FC;
-}
-
-
-/* AD ONE MOST POPULAR */
-#most-one img {
-    width: 120px;
-    height: 120px;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-    
-}
-#most-one {
-    display: flex;
-    width: 335px;
-    background-color: #fff;
-    border: solid 4px white;
-    border-radius: 20px;
-    border-bottom: 2px;
-    position: relative;
-    left: 19px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    top: 15px;
-}
-#most-one-infos {
-    padding-left: 15px;
-    position: relative;
-    bottom: 5px;
-}
-#most-one-infos h5 {
-    position: relative;
-    bottom: 5px;
-}
-#most-one-infos p {
-    position: relative;
-    bottom: 20px;
-    font-size: 12px;
-    font-weight: 200;
-}
-
-
-/* AD TWO MOST POPULAR */
-#most-two img {
-    width: 120px;
-    height: 120px;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-    
-}
-#most-two {
-    display: flex;
-    width: 335px;
-    background-color: #fff;
-    border: solid 4px white;
-    border-radius: 20px;
-    border-bottom: 2px;
-    position: relative;
-    left: 19px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    top: 40px;
-}
-#most-two-infos {
-    padding-left: 15px;
-    position: relative;
-    bottom: 5px;
-}
-#most-two-infos h5 {
-    position: relative;
-    bottom: 5px;
-}
-#most-two-infos p {
-    position: relative;
-    bottom: 20px;
-    font-size: 12px;
-    font-weight: 200;
-}
-
-
-/* AD THREE MOST POPULAR */
-
-#most-three img {
-    width: 120px;
-    height: 120px;
-    border-top-left-radius: 16px;
-    border-bottom-left-radius: 16px;
-    
-}
-#most-three {
-    display: flex;
-    width: 335px;
-    background-color: #fff;
-    border: solid 4px white;
-    border-radius: 20px;
-    border-bottom: 2px;
-    position: relative;
-    left: 19px;
-    box-shadow: 1px 1px 12px rgb(180, 179, 179);
-    top: 65px;
-}
-#most-three-infos {
-    padding-left: 15px;
-    position: relative;
-    bottom: 5px;
-}
-#most-three-infos h5 {
-    position: relative;
-    bottom: 5px;
-}
-#most-three-infos p {
-    position: relative;
-    bottom: 20px;
-    font-size: 12px;
-    font-weight: 200;
-}
-
-/******** ACTIVITY PART ********/
-
-.title-activity {
-    position: relative;
-    bottom: 450px;
-    left: 40px;
-}
-#activity-one {
-    position: relative;
-    bottom: 400px;
-    left: 40px;
-}
-
-#activity-one img {
-    width: 300px;
-    height: 420px;
-}
-
-
-
-
-
-
-/* MEDIA QUERIES NAVBAR 
-@media screen and (min-width:1024px){
-    
-}
-@media screen and (min-width:768px) and (max-width:1023px) {
-    
-}
-@media screen and (max-width:767px) {
-    
-}
-*/
-
