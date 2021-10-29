@@ -10,30 +10,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;600&display=swap" rel="stylesheet">
+    <!-- !! CHARGEMENT DE INCONSOLATA POUR LE INFORMATION -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600&display=swap" rel="stylesheet">
     <!-- SNIPPETS FONT AWESOME -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <title>Booki</title>
 </head>
 <body>
-    <header> <!-- HEADER -->
+    <!--** NAV **-->
+    <nav>
+        <div class="navbar">
+            <div id="nav-logo">
+                <img src="images/logo/Booki@3x.png" alt="logo bleu booki">
+            </div>
+            <div id="nav-links">
+                <a href="#">Hébergements</a>
+                <a href="#">Activités</a>
+            </div>
+        </div>
+    </nav>
+    <!--** FIN DE NAV**-->
 
+    <!--** HEADER **-->
+    <header>
         <!-- HEADER FORM -->
         <div class="header-one">
             <h3>Trouvez votre hébergement pour des vacances de rêve</h3>
             <h4>En plein centre ville ou en pleine nature</h4>
-        </div> 
+        </div>
         <div class="header-form">
             <form action="#" method="#">
-                <i class="fas fa-map-marker-alt" id="i-one"></i>
-                <input type="text" name="city" maxlength="45" id="form-one" placeholder="Marseille, France">
-                <button id="form-btn" type="submit">Rechercher</button>
+                <a href="#"><i class="fas fa-map-marker-alt"></i></a>
+                <input type="text" name="city" maxlength="45" placeholder="Marseille, France">
+                <button type="submit">Rechercher</button>
             </form>
         </div>
-
-       <!-- HEADER FILTERS -->
+        <!--  FILTERS  -->
         <div class="header-filters">
-
             <div class="filters">
                 <p>Filtres</p>
                 <div id="filter-one">
@@ -54,104 +69,123 @@
                     <button id="btn-four" type="submit">Animaux autorisés</button>
                 </div>
             </div>
-            <div id="filter-info">
-                <p><i class="fal fa-info-circle"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            <div id="filters-info">
+                <p><span id="info-circle">i</span>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
-
         </div>
-    </header> <!-- FIN DE HEADER -->
-    <main>
-        <!-- HEBERGEMENTS CARDS -->
-        <div class="cards">
-            <div id="title-cards">
+        </header>
+        <!--** FIN DE HEADER **-->
+        <!--** DEBUT DE MAIN  **-->
+        <main>
+            <div class="accomodations">
                 <h3>Hébergements à Marseille</h3>
-            </div>
-            
-            <div class="cards-ad">
-                <div id="card-one">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/1.jpg" alt="auberge deux lits"></a>
-                    <div class="infos-cards">
-                        <h5>Auberge La Cannebière</h5>
-                        <p>Nuit à partir de 25<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" id="stars1"></i>
-                    </div> 
-                </div>
-                <div id="card-two">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/2.jpg" alt="hôtel port deux lits"></a>
-                    <div class="infos-cards">
-                        <h5>Hôtel du port</h5>
-                        <p>Nuit à partir de 52<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    
-                </div>
-                <div id="card-three">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/3.jpg" alt="hôtel lit double mouettes"></a>
-                    <div class="infos-cards">
-                        <h5>Hôtel Les mouettes</h5>
-                        <p>Nuit à partir de 76<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" id="stars1"></i>
-                        <i class="fas fa-star" id="stars1"></i>
-                    </div>
-                </div>
-                <div id="card-four">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/4.jpg" alt="hôtel mer lit double"></a>
-                    <div class="infos-cards">
-                        <h5>Hôtel de la mer</h5>
-                        <p>Nuit à partir de 46<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" id="stars1"></i>  
-                    </div>
-                    
-                </div>
-                <div id="card-five">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/5.jpg" alt="auberge plusieurs lits panier"></a>
-                    <div class="infos-cards">
-                        <h5>Auberge Le Panier</h5>
-                        <p>Nuit à partir de 23<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star" id="stars1"></i>  
-                    </div>
-                    
-                </div>
-                <div id="card-six">
-                    <a href="#"><img src="../tronc/images/hebergements/4_small/6.jpg" alt="hôtel amina deux lits"></a>
-                    <div class="infos-cards">
-                        <h5>Hôtel chez Amina</h5>
-                        <p>Nuit à partir de 96<span>€</span></p>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
+                <div class="accomodations-cards">
+
+                    <div id="card-one">
+                        <img src="../tronc/images/hebergements/4_small/1.jpg" alt="Auberge la cannebière">
+                        <div class="info-cards">
+                            <h4>Auberge La Cannebière</h4>
+                            <p>Nuit à partir de 25 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" id="stars1"></i>
+                        </div>
                     </div>
 
-                </div>
-            </div>
+                    <div id="card-two">
+                        <img src="../tronc/images/hebergements/4_small/2.jpg" alt="Hôtel du port">
+                        <div class="info-cards">
+                            <h4>Hôtel du port</h4>
+                            <p>Nuit à partir de 52 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
 
-            <div id="view-more">
-                <a href="#">Afficher plus</a>
-            </div>
-        </div>
-        <!-- FIN DE HEBERGEMENTS CARDS -->
-        <!-- LES PLUS POPULAIRES CARDS  -->
+                    <div id="card-three">
+                        <img src="../tronc/images/hebergements/4_small/3.jpg" alt="Hôtel Les mouettes">
+                        <div class="info-cards">
+                            <h4>Hôtel Les mouettes</h4>
+                            <p>Nuit à partir de 76 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" id="stars1"></i>
+                        </div>
+                    </div>
+
+                    <div id="card-four">
+                        <img src="../tronc/images/hebergements/4_small/4.jpg" alt="Hôtel de la mer">
+                        <div class="info-cards">
+                            <h4>Hôtel de la mer</h4>
+                            <p>Nuit à partir de 46 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" id="stars1"></i>
+                            <i class="fas fa-star" id="stars1"></i>
+                        </div>
+                    </div>
+
+                    <div id="card-five">
+                        <img src="../tronc/images/hebergements/4_small/5.jpg" alt="Auberge le panier">
+                        <div class="info-cards">
+                            <h4>Auberge Le Panier</h4>
+                            <p>Nuit à partir de 23 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star" id="stars1"></i>
+                        </div>
+                    </div>
+
+                    <div id="card-six">
+                        <img src="../tronc/images/hebergements/4_small/6.jpg" alt="Hôtel chez Amina">
+                        <div class="info-cards">
+                            <h4>Hôtel chez Amina</h4>
+                            <p>Nuit à partir de 96 <span>€</span></p>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+
+                </div> <!-- Fermeture de Accomodations-Cards -->
+                <div id="view-more">
+                    <a href="#">Afficher plus</a>
+                </div>
+            </div> <!-- Fermeture de Accomodations -->
+        </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- LES PLUS POPULAIRES CARDS  
         <div class="mostpopular">
             <div class="title-most">
                 <h3>Les plus populaires</h3>
@@ -204,8 +238,9 @@
                 </div>
             </div>
         </div>
-        <!-- FIN DES CARDS HEBERGEMENTS -->
-        <!-- DEBUT DES CARDS ACTIVITES -->
+        
+         FIN DES CARDS HEBERGEMENTS -->
+        <!-- DEBUT DES CARDS ACTIVITES 
         <div class="activities">
             <div class="title-activity">
                 <h3>Activités à Marseille</h3>
@@ -221,6 +256,7 @@
             <div id="activity-five"></div>
             <div id="activity-six"></div>
         </div>
+    -->
 
 
 
@@ -235,12 +271,6 @@
 
 
 
-
-
-
-
-
-    </main>
 
 
 
