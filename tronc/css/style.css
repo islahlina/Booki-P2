@@ -80,6 +80,7 @@ a{
 /* INFO CIRCLE */
 #filters-info {
     font-weight: 300;
+    margin-bottom: 40px;
 }
 #info-circle {
     font-family: 'Inconsolata', monospace;
@@ -89,14 +90,16 @@ a{
     padding: 2px 7px 2px 7px;
     border-radius: 50%;
     margin-right: 12px;
+    margin-left: 40px;
 }
 /************** ACCOMODATIONS CARDS **************/
 .accomodations { /** DIV 1 **/
-    width: 950px;
-    height: 665px;
+    width: 60%;
+    height: 100%;
     margin-left: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
+    margin-bottom: -46%;
 }
 .accomodations h3 {
     margin-left: 50px;
@@ -134,7 +137,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-one img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -151,7 +154,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-two img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -168,7 +171,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-three img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -185,7 +188,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-four img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -202,7 +205,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-five img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -219,7 +222,7 @@ a{
     box-shadow: 1px 1px 12px rgb(185, 185, 185);
 }
 #card-six img {
-    width: 250px;
+    width: 220px;
     height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -229,5 +232,221 @@ a{
 #view-more {
     margin-left: 50px;
     font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+/************** MOST POPULAR CARDS **************/
+.mostpopular {
+    width: 30%;
+    height: 560.5px;
+    margin-left: 67%;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 17px 0px 77px 20px;
+}
+#most-title {
+    display: flex;
+    justify-content: space-between;
+}
+#most-title h3 {
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+#most-title i {
+    margin-top: 22px;
+    margin-right: 50px;
+}
+.mostpopular-cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    margin-left: 18px
+}
+.most-infos {
+    padding-left: 15px;
+}
+.most-infos h4 {
+    margin-bottom: -10px;
+    margin-top: 10px;
     font-size: 15px;
+}
+.most-infos p {
+    font-size: 14px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.most-infos i {
+    font-size: 13px;
+    color: #0065FC;
+}
+/** CARD 7 **/
+#card-seven {
+    display:flex;
+    margin-left: 10px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
+}
+#card-seven img {
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/** CARD 8 **/
+#card-eight {
+    display:flex;
+    margin-left: 10px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
+}
+#card-eight img {
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/** CARD 9 **/
+#card-nine {
+    display:flex;
+    margin-left: 10px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    padding: 5px 0px 1px 5px;
+    box-shadow: 1px 1px 12px rgb(185, 185, 185);
+}
+#card-nine img {
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/** SPAN STARS & € **/
+#stars1 {
+    color:#F2F2F2;
+}
+span {
+    font-weight: bold;
+}
+
+/************** ACTIVITIES CARDS PIC **************/
+
+.title-activities {
+    margin-left: 40px;
+    margin-top: 6%;
+}
+.activities-cards {
+    display: flex;
+}
+.activities-cards {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/** ACTIVITY CARDS **/
+
+/* Activity 1 */
+
+#activity-one img {
+    border-radius: 20px;
+    width: 290px;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: -8px;
+}
+#activity-one h4 {
+    margin-left: 55px;
+}
+
+/* Activity 2 */
+
+#activity-two img {
+    border-radius: 20px;
+    width: 230px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+}
+
+#activity-two h4 {
+    margin-left: 42px;
+}
+
+/* Activity 3 */
+
+#activity-three img {
+    border-radius: 20px;
+    width: 230px;
+    height: 130px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+}
+#activity-three h4 {
+    margin-left: 42px;
+}
+
+/* Activity 4 */
+
+#activity-four img {
+    border-radius: 20px;
+    width: 290px;
+    height: 400px;
+    margin-left: 40px;
+    margin-bottom: -8px;
+}
+#activity-four h4 {
+    margin-left: 42px;
+}
+
+/* Activity 5 */
+
+#activity-five img {
+    border-radius: 20px;
+    width: 230px;
+    height: 130px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+}
+#activity-five h4 {
+    margin-left: 42px;
+}
+
+/* Activity 6 */
+
+#activity-six img {
+    border-radius: 20px;
+    width: 230px;
+    height: 130px;
+    margin-left: 30px;
+    margin-bottom: -8px;
+}
+#activity-six h4 {
+    margin-left: 42px;
+}
+
+
+/************** ACTIVITIES CARDS PIC **************/
+.footer-all {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    padding: 50px 0px 50px 0px;
+    
+}
+.footer-all h3 {
+    font-size:17px;
+}
+.footer-all a {
+    margin-right: 220px;
+    font-size: 13px;
+    font-weight: 200;
 }
